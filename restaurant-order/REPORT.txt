@@ -1,0 +1,35 @@
+PROJECT REPORT - RESTAURANT ORDER MANAGEMENT SYSTEM
+
+1. INTRODUCTION
+This project is a simple console program written in Core Java. It lets staff
+choose food from a menu, see the bill and place an order.
+
+2. OBJECTIVE
+- To take restaurant orders on the computer instead of on paper.
+- To calculate the total bill automatically.
+- To practise classes, objects and ArrayList in Java.
+
+3. MODULES
+- Menu module          : shows 6 food items with their prices.
+- Order module         : adds items with quantity to the current order (same item increases the quantity).
+- Bill module          : calculates the total (price x quantity for every item).
+- Place Order module   : saves the order with the customer name and starts a new order.
+
+4. SYSTEM REQUIREMENTS
+- Hardware : any computer with 2 GB RAM or more.
+- Software : JDK 8 or higher, terminal or command prompt (or any IDE such as NetBeans, Eclipse).
+
+5. FLOWCHART / LOGIC
+Start -> Show menu options -> Read choice ->
+  1: Show menu
+  2: Read item number and quantity -> add to current order
+  3: Show current order and total bill
+  4: Read customer name -> order empty? show message / else save order and clear it
+  5: Show all placed orders
+  6: Exit
+-> Repeat until Exit -> End
+
+6. CONCLUSION
+The project works as a basic restaurant ordering system and helped in learning
+classes, ArrayList, loops and input handling in Java. It can be improved later
+by adding payment, tables or saving orders in a file.

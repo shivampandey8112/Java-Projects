@@ -1,0 +1,35 @@
+PROJECT REPORT - STUDENT RECORD MANAGEMENT SYSTEM
+
+1. INTRODUCTION
+This project is a simple console program written in Core Java. It stores and
+manages student details such as roll number, name, course and marks.
+
+2. OBJECTIVE
+- To store student records in a program instead of on paper.
+- To add, view, search and delete students easily.
+- To practise classes, objects and ArrayList in Java.
+
+3. MODULES
+- Add Student    : takes the details and checks them (no empty fields, marks 0-100, no duplicate roll number).
+- View Students  : shows all students in a table with Pass or Fail.
+- Search Student : finds students by full or part of the name.
+- Delete Student : removes a student using the roll number.
+
+4. SYSTEM REQUIREMENTS
+- Hardware : any computer with 2 GB RAM or more.
+- Software : JDK 8 or higher, terminal or command prompt (or any IDE such as NetBeans, Eclipse).
+
+5. FLOWCHART / LOGIC
+Start -> Show menu -> Read choice ->
+  1: Add student -> validate -> save in ArrayList
+  2: Show all students from ArrayList
+  3: Read name -> search ArrayList -> show matches
+  4: Read roll number -> find in ArrayList -> remove
+  5: Exit
+-> Repeat the menu until the user chooses Exit -> End
+Result rule: marks 40 or more = Pass, otherwise Fail.
+
+6. CONCLUSION
+The project works as a basic student record system and helped in learning
+object oriented programming, ArrayList, loops and input handling in Java.
+It can be improved later by saving data in a file or database.

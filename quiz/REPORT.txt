@@ -1,0 +1,30 @@
+PROJECT REPORT - ONLINE QUIZ MANAGEMENT SYSTEM
+
+1. INTRODUCTION
+This project is a simple console quiz game written in Core Java. The player
+answers 5 general knowledge questions and gets a score and a grade.
+
+2. OBJECTIVE
+- To conduct a quiz on the computer and check answers automatically.
+- To show the score and grade at the end.
+- To practise classes, objects and ArrayList in Java.
+
+3. MODULES
+- Question module : stores a question, its 4 options and the correct option.
+- Quiz module     : keeps all questions, asks them one by one and counts the score.
+- Result module   : shows the score out of 5 and a grade message.
+
+4. SYSTEM REQUIREMENTS
+- Hardware : any computer with 2 GB RAM or more.
+- Software : JDK 8 or higher, terminal or command prompt (or any IDE such as NetBeans, Eclipse).
+
+5. FLOWCHART / LOGIC
+Start -> Enter player name -> For each of the 5 questions:
+  show question -> read answer (1 to 4) -> correct? yes: score + 1 / no: show right answer
+-> Show score and grade -> Play again? yes: repeat / no: End
+Grade rule: 5 = Excellent, 3 or 4 = Good job, below 3 = Keep practising.
+
+6. CONCLUSION
+The project works as a basic quiz system and helped in learning classes,
+ArrayList, loops and input checking in Java. It can be improved later by
+adding more questions, a timer or saving the scores.
